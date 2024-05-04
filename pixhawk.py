@@ -5,11 +5,10 @@ import time
 
 # pip install git+https://github.com/dronekit/dronekit-python.git
 
-
 connection_string = '/dev/ttyACM0'
 
 vehicle = connect(connection_string, wait_ready=True)
-3
+
 attribute_list = {
  "Firmware Versuion": vehicle.version,
  "Autopilot Capabilities" : vehicle.capabilities.ftp,
