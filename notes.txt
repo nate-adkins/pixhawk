@@ -1,5 +1,0 @@
-
-
-Need to install using this:
-
-pip install git+https://github.com/dronekit/dronekit-python.git

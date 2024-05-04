@@ -3,6 +3,9 @@ import time
 
 # https://dronekit-python.readthedocs.io/en/latest/guide/vehicle_state_and_parameters.html
 
+# pip install git+https://github.com/dronekit/dronekit-python.git
+
+
 connection_string = '/dev/ttyACM0'
 
 vehicle = connect(connection_string, wait_ready=True)
