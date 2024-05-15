@@ -9,6 +9,12 @@ connection_string = '/dev/ttyACM0'
 
 vehicle = connect(connection_string, wait_ready=True)
 
+
+'''
+Need to except APIException
+
+'''
+
 attribute_list = {
  "Firmware Versuion": vehicle.version,
  "Autopilot Capabilities" : vehicle.capabilities.ftp,
